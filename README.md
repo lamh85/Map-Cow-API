@@ -14,7 +14,10 @@ Ensure that your bash profile has the `--wait` flag:
 export EDITOR='code --wait'
 ```
 
-## APIs
+## Google API
 
-Google Places
+Google Places Intro
 https://developers.google.com/places/web-service/intro
+
+Use the `place_id` to get place details
+https://developers.google.com/places/web-service/details
