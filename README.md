@@ -1,24 +1,20 @@
-# README
+# Development Guide
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Configuring Rails
 
-Things you may want to cover:
+Removed `webpacker` because it made Rails think that this app is a monolith.
 
-* Ruby version
+## Environment Variables
 
-* System dependencies
+Guide:
+https://www.rubyguides.com/2019/01/ruby-environment-variables/
 
-* Configuration
+Ensure that your bash profile has the `--wait` flag:
+```bash
+export EDITOR='code --wait'
+```
 
-* Database creation
+## APIs
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Google Places
+https://developers.google.com/places/web-service/intro
